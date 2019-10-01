@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+canvas {
+    display: block;
+}
+
+h1 {
+    color: @first-color;
+    
+    a {
+        color: @second-color;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: @first-color;
+}
+
+.search {
+    overflow: hidden;
+    background: #ccc;
+    padding: 20px;
+    font-size: 0;
+    
+    &__input {
+        width: 70%;
+        height: 40px;
+        border: none;
+        padding: 0 10px;
+        box-sizing: border-box;
+        margin: 0;
+        vertical-align: middle;
+        font-size: 20px;
+    }
+    
+    &__btn {
+        float: left;
+        font-size: 20px;
+        background-color: @first-color;
+        width: 30%;
+        height: 40px;
+        border: none;
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+}
+
+.saved-data {
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 40px;
+}

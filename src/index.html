@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Project</title>
+	//= templates/head.html
+</head>
+<body>
+	//= images/svg-icons.html
+	<div class="wrapper" style="padding: 20px;">
+		//= templates/header.html
+		<div class="search">
+			<button type="button" class="search__btn" id="send-data">Save data to FILE SYSTEM</button>
+			<div id="saved-data" class="saved-data"></div>
+		</div>
+		
+		<div>
+			<h2>Loaded data from file:</h2>
+			<div id="data"></div>
+			
+			<h2>Prepared data:</h2>
+			
+			<div>
+				<div id="parsed-data">
+					<div data-bind="name"></div>
+					<div data-bind="surname"></div>
+					<div data-bind="owner"></div>
+				</div>
+			</div>
+		</div>
+		
+		//= templates/footer.html
+	</div>
+	<!-- Footer Scripts -->
+	//= templates/custom-scripts.html
+</body>
+</html>
