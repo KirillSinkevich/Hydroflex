@@ -10,14 +10,12 @@
   },
   "author": "KirillSinkevich",
   "license": "ISC",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-es2015": "^6.24.1",
     "gulp-babel": "^6.1.2",
-    
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.17.5",
     "browser-sync-spa": "^1.0.3",
@@ -39,7 +37,6 @@
       "number-leading-zero": null,
       "no-eol-whitespace": null,
       "block-no-empty": null,
-      
       "indentation": "tab",
       "string-quotes": "double",
       "property-no-unknown": [

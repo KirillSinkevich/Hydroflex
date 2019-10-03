@@ -1,0 +1,30 @@
+.hidden {
+	display: none;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.main-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+	align-items: center;
+	padding: 0;
+	li:hover .sub-menu {
+		display: flex;
+	}
+	>li + li{
+		margin-left: 50px;
+	}
+}
+
+.sub-menu {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+}
+
